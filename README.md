@@ -5,7 +5,7 @@
 	</p>
 	<br />
     <h1>Mini-Message Board</h1>
-    <a href="mini-message-board-production-d510.up.railway.app">Try it here!</a>
+    <a href="https://mini-message-board-production-d510.up.railway.app/">Try it here!</a>
 </div>
 
 ## Screenshot
