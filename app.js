@@ -11,8 +11,10 @@ app.set("view engine", "ejs");
 
 // routers
 const messageRouter = require("./routes/message.routes");
+const registerRouter = require("./routes/register.routes");
 
-app.use("/", messageRouter);
+app.use("/", registerRouter);
+app.use("/message", messageRouter);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

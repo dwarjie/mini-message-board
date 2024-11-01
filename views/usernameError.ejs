@@ -11,17 +11,15 @@
 		/>
 		<link rel="stylesheet" href="./styles.css" />
 		<link rel="stylesheet" href="./breakpoints.css" />
-		<title>Mini-Message-Board</title>
+		<title>Mini-Message-Board | Username Error</title>
 	</head>
 	<body>
 		<div class="wrapper">
-			<%- include("./navBar", { title: title }) %>
-			<div class="main">
-				<div class="container">
-					<% messages.forEach(message => { %> <%- include("./messages", {user:
-					message.user, added: message.added, text: message.text }) %> <% }); %>
+			<div class="register-form">
+				<div class="register-label">
+					<h1>Please provide a valid username!</h1>
+					<a href="/" style="width: 100%"><button>Back</button></a>
 				</div>
-				<div class="message-form"><%- include("./messageForm") %></div>
 			</div>
 		</div>
 	</body>
