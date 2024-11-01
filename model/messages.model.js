@@ -1,11 +1,6 @@
 const messages = [
 	{
-		text: "Hello World",
-		user: "Kurosaki Ichigo",
-		added: new Date().toLocaleString(),
-	},
-	{
-		text: "Hello World",
+		text: "The person under this message is my first visitor ⬇️",
 		user: "Kurosaki Ichigo",
 		added: new Date().toLocaleString(),
 	},
